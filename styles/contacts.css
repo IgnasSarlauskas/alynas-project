@@ -1,0 +1,91 @@
+#fname, #lname, #email, #subject {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+ .form input[type=submit] {
+  border: solid 1px red;
+  color: black;
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: white;
+  box-sizing: border-box;
+  width: 25%;
+  display:block
+  
+} 
+
+.form input[type=submit]:hover {
+  border: solid 1px red;
+}
+
+.contact-form {
+  border-radius: 5px;
+  width: 40%;
+  box-sizing: border-box;
+  margin-top: 20px; 
+}
+
+/* google map styles */
+
+/* .location {
+  width: 60%;
+} */
+
+iframe {
+  
+  display:block; 
+  margin: 0 auto; 
+  margin-top: 25px;
+  margin-left: 5px;
+  width: 60%;
+  height:450px;
+  
+  
+}
+.contact-container {
+  margin: 0 165px 0 150px;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* justify-content: space-between; */
+}
+
+@media screen and (max-width: 845px) {
+  input[type=submit] {
+    font-size: 16px;
+  } 
+
+  .contact-form {
+    border-radius: 5px;
+    width: 100%;
+    display:block;
+    box-sizing: border-box;
+    margin-top: 20px; 
+    margin: 0 auto;
+  }
+  
+  .contact-container {
+    margin: 0 10px 0 10px;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    /* justify-content: space-between; */
+  }
+
+  /* .location {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  } */
+
+  iframe {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}

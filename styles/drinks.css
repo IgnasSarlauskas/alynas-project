@@ -1,0 +1,68 @@
+.drinks-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 165px 0 150px;
+}
+
+.drink-container {
+  display:block;
+  width: 250px;
+  height: 450px;
+  background-color:#903C27;
+  color: white;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+}
+.drinks-heading {
+  margin-left: 150px;
+}
+
+.beer-image {
+  width: 120px;
+  display:block;
+  margin: 0 auto;
+}
+
+.drink-name {
+  text-align: center;
+}
+
+.drink-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.drink-container .buttons input[type=submit] {
+  width: 35% !important;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 845px) {
+ 
+  .drink-container {
+    display:block;
+    width: 40%;
+    height: 450px;
+    background-color:#903C27;
+    color: white;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+  }
+
+
+  .drinks-container {
+    margin: 0 10px 0 10px;
+  }
+
+  .drinks-heading {
+    margin-left: 10px;
+  }
+
+}
